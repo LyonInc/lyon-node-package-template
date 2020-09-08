@@ -1,0 +1,8 @@
+{
+  "target": "esnext",
+  "outDir": "dist",
+  "srcDir": "src",
+  "outFile": "index.js",
+  "srcFile": "index.ts",
+  "jsxFactory": "React.createElement"
+}

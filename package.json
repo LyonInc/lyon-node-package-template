@@ -1,0 +1,34 @@
+{
+  "name": "lyon-node-package-template",
+  "version": "0.1.0",
+  "repository": "https://github.com/LyonInc/lyon-node-package-template.git",
+  "author": "Alexis Munsayac <alexis.munsayac@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/esbuild-typescript-template.esm.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "node build-src",
+    "watch": "node build-src -w",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "chokidar": "^3.4.2",
+    "dotenv": "^8.2.0",
+    "esbuild": "^0.6.32",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "fs-extra": "^9.0.1",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  }
+}
